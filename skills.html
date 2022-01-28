@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>Aryan's Skills</title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+      <a href="main.html" class="logo">ARYAN KUMAR SINGH</a>
+      <nav>
+         <ul class="nav__links">
+            <li><a href="main.html">HOME</a></li>
+            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="skills.html">SKILLS</a></li>
+         </ul>
+      </nav>
+   </header>
+   <div id="mobile__menu" class="overlay">
+      <a class="close">&times;</a>
+      <div class="overlay__content">
+         <a href="main.html">HOME</a>
+         <a href="hobbies.html">HOBBIES</a>
+         <a href="skills.html">SKILLS</a>
+      </div>
+   </div>
+   <script type="text/javascript" src="mobile.js"></script>
+   <div >
+      <p class="head"   align="center">SKILLS</p>
+   </div>
+  
+   
+
+
+
+
+<div class="container">
+   <div class="box">
+     <div class="chart" data-percent="40" >40%</div>
+     <h2>HTML/CSS/JS</h2>
+   </div>
+   <div class="box">
+     <div class="chart" data-percent="50" >50%</div>
+     <h2>Python</h2>
+   </div>
+   <div class="box">
+     <div class="chart" data-percent="60" >60%</div>
+     <h2>C++</h2>
+   </div>
+   
+  
+ </div>
+ 
+ <script type="text/javascript">
+   $(function() {
+   $('.chart').easyPieChart({
+     size: 160,
+     barColor: "#36e617",
+     scaleLength: 0,
+     lineWidth: 15,
+     trackColor: "#525151",
+     lineCap: "circle",
+     animate: 2000,
+   });
+ });
+ </script>
+
+
+
+
+
+
+
+
+
+
+
+
+   <footer>
+      <h3 class="contact" align="center">Contacts</h3>
+      <div class="footer-content">
+         <div class="social"><a href="https://www.linkedin.com/in/aryan1503/"><img  height="50px" width="50px" src="photos\linkedin.png"></a></div>
+         <div class="social"><a href="https://www.kaggle.com/aryankumarsingh"><img  height="50px" width="50px" src="photos\kaggle.png"></a></div>
+         <div class="social"><a href="https://github.com/aryan1503"><img  height="50px" width="50px" src="photos\github.png"></a></div>
+      </div>
+   </footer>
+</body>
+
+
+</html>
+
